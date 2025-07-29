@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ma Page Web</title>
+  <style>
+    body {
+      background-color: #f0f8ff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+
+    .carte {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      padding: 20px;
+      display: inline-block;
+      max-width: 400px;
+    }
+
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    button {
+      background-color: #2e8b57;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+
+    button:hover {
+      background-color: #246d45;
+    }
+  </style>
+</head>
+<body>
+  <div class="carte">
+    <img src="https://via.placeholder.com/150" alt="Photo de profil">
+    <h1>Bienvenue sur ma page !</h1>
+    <p>Je m'appelle Olawale.</p>
+    <p>J'apprends à créer des sites web avec HTML, CSS et JavaScript.</p>
+    <button onclick="direBonjour()">Clique ici</button>
+  </div>
+
+  <script>
+    function direBonjour() {
+      alert("Bonjour, merci d'avoir cliqué !");
+    }
+  </script>
+</body>
+</html>
