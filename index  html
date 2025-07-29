@@ -25,6 +25,7 @@
       height: 150px;
       border-radius: 50%;
       margin-bottom: 15px;
+      object-fit: cover;
     }
 
     button {
@@ -45,7 +46,9 @@
 </head>
 <body>
   <div class="carte">
-    <img src="https://via.placeholder.com/150" alt="Photo de profil">
+    <!-- ✔️ Ta vraie photo ici -->
+    <img src="FB_IMG_1741547263482.jpg" alt="Ma photo de profil">
+
     <h1>Bienvenue sur ma page !</h1>
     <p>Je m'appelle Olawale.</p>
     <p>J'apprends à créer des sites web avec HTML, CSS et JavaScript.</p>
